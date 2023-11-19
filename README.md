@@ -63,24 +63,3 @@ git clone https://github.com/xinyu1205/recognize-anything.git
 cd recognize-anything
 pip install -e .
 ```
-
-Then the RAM++, RAM and Tag2Text model can be imported in other projects:
-
-```python
-from ram.models import ram_plus, ram, tag2text
-```
-
-### **RAM++ Inference** ##
-
-Get the English outputs of the images:
-
-<pre/>
-python inference_ram_plus.py  --image images/demo/demo1.jpg \
---pretrained pretrained/ram_plus_swin_large_14m.pth
-</pre>
-
-The output will look like the following:
-
-```
-Image Tags:  armchair | blanket | lamp | carpet | couch | dog | gray | green | hassock | home | lay | living room | picture frame | pillow | plant | room | wall lamp | sit | wood floor
-```
