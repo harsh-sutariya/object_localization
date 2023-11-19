@@ -64,38 +64,47 @@ cd recognize-anything
 pip install -e .
 ```
 
-3. ```bash
+3. 
+```bash
 pip install -r requirements.txt
 ```
 
-4. ```bash
+4. 
+```bash
 pip install -e .
 ```
 
-5. ```bash
+5. delete the grounded-segment-anything folder first.
+```bash
 git clone https://github.com/IDEA-Research/Grounded-Segment-Anything.git
 ```
 
-6. ```bash
+6. 
+```bash
 cd ./Grounded-Segment-Anything
 ```
 
-7. ```bash
+7. 
+```bash
 pip install -r ./requirements.txt
 ```
 
-8. ```bash
+8. 
+```bash
 pip install ./segment_anything
 ```
 
-9. ```bash
+9. 
+```bash
 pip install ./GroundingDINO
 ```
 
-10. ```bash
+10. 
+```bash
 cd ..
 ```
 
-11. ```bash
+11. 
+```bash
 pip install opencv-python pycocotools matplotlib onnxruntime onnx ipykernel
 ```
