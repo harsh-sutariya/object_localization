@@ -11,36 +11,34 @@ This project aims to develop a series of open-source and strong fundamental imag
     <tr style="text-align: right;">
       <th></th>
       <th>Name</th>
-      <th>Backbone</th>
-      <th>Data</th>
-      <th>Illustration</th>
       <th>Checkpoint</th>
+      <th>Path to be stored</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>1</th>
-      <td>RAM++ (14M)</td>
-      <td>Swin-Base</td>
-      <td>COCO, VG, SBU, CC3M, CC3M-val, CC12M</td>
-      <td>Provide strong image tagging ability for any category.</td>
-      <td><a href="https://huggingface.co/xinyu1205/recognize-anything-plus-model/blob/main/ram_plus_swin_large_14m.pth">Download  link</a></td>
+      <td>Grounded SAM</td>
+      <td><a href="https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth">Download  link</a></td>
+      <td>./Grounded-Segment-Anything/</td>
     </tr>
     <tr>
       <th>2</th>
       <td>RAM (14M)</td>
-      <td>Swin-Large</td>
-      <td>COCO, VG, SBU, CC3M, CC3M-val, CC12M</td>
-      <td>Provide strong image tagging ability for common category.</td>
       <td><a href="https://huggingface.co/spaces/xinyu1205/Recognize_Anything-Tag2Text/blob/main/ram_swin_large_14m.pth">Download  link</a></td>
+      <td>./pretrained/</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Tag2Text (14M)</td>
-      <td>Swin-Base</td>
-      <td>COCO, VG, SBU, CC3M, CC3M-val, CC12M</td>
-      <td>Support comprehensive captioning and tagging.</td>
       <td><a href="https://huggingface.co/spaces/xinyu1205/Recognize_Anything-Tag2Text/blob/main/tag2text_swin_14m.pth">Download  link</a></td>
+      <td>./pretrained/</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>SAM</td>
+      <td><a href="https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth">Download  link</a></td>
+      <td>./Grounded-Segment-Anything/</td>
     </tr>
   </tbody>
 </table>
